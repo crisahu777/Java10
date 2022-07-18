@@ -25,10 +25,13 @@ console.warn(sexo)
 
 if (sexo == 'hombre' && edad >= 18){
     alert("Puedes entrar, eres mayor de edad.");
+    document.write("Pudiste ingresar")
 } 
 else if (sexo == 'mujer' && edad >= 20){
     alert("Puedes entrar, eres mayor de edad.");
+    document.write("Pudiste ingresar");
 }
 else {
     alert("No puedes entrar, eres menor de edad.");
+    document.write("No pudiste ingresar");
 }
